@@ -35,12 +35,6 @@ body {
 img {max-width: 100%;}
 
 /*inicio de estilos del header*/
-/*solo para desktop*/
-@media screen and (min-width:981px) {
-    .header-container {
-        position: fixed;
-    }
-}
 .title {
     font-family: 'Bree Serif', serif;
     font-weight: 600 lighter;
@@ -52,7 +46,13 @@ img {max-width: 100%;}
 /*fin de estilos del header*/
 
 /*inicio estilo del main*/
-.main-container {
+.margin-carr {
+    margin-top: 135px;
+}
+.margin-sectmain {
+    margin-top: 50px;
+}
+/* .main-container {
     margin-top: 135px;
     display: grid;
     grid-template-columns: 1fr 2fr 2fr 2fr 1fr ;
@@ -62,16 +62,16 @@ img {max-width: 100%;}
     grid-template-areas: 'img img img img img'
     '. parrafo parrafo parrafo .'
     '. producto producto producto .';
-    }
+    } */
 /*inicio estilo seccion 1 carrousel*/
-.carrousel-t {grid-area: img;
-}
+/* .carrousel-t {grid-area: img;
+} */
 /*fin de estilo seccion 1 carrousel*/
 
 /*inicio estilo seccion 2 descripcion*/
-.parrafo-container {grid-area: parrafo;
+/* .parrafo-container {grid-area: parrafo;
     align-items: center;
-}
+} */
 
 .parrafo-producto {
     display: flex;
@@ -83,10 +83,11 @@ img {max-width: 100%;}
     width: 90%;
     justify-content: center;
 }
+ 
 /*fin estilo seccion 2 descripcion*/
 
 /*inicio estilo seccion 3 producto*/
-.product-cont { grid-area: producto;    
+/* .product-cont { grid-area: producto;    
 }
 .producto-1 { 
     display: flex;
@@ -95,7 +96,7 @@ img {max-width: 100%;}
     justify-content: space-around;
     margin: 10px;
 
-}
+} */
 .cont {
     position: relative;
     margin: 10px 0 10px 0; 
@@ -135,14 +136,14 @@ img {max-width: 100%;}
   
 
 
-.producto-2 { 
+/* .producto-2 { 
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     justify-content: space-around;
     margin: 10px;
 
-}
+} */
 
 .pro-titles {
     font-size: var(--imagen-description);
@@ -249,7 +250,12 @@ button {
 
 
 /*inicio estilos del footer*/
-
+@media screen and (max-width:980px) {
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+    } 
+}
 .footer-container {
     padding-top: 50px;
     background-color: #982c3b;
