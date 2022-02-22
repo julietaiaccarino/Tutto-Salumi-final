@@ -184,7 +184,24 @@ img {max-width: 100%;}
     color: black;
     background-color:#fbedd5;
 }
-    
+ 
+@media screen and (max-width:480px) {
+    .contacto { 
+        width: 100%;
+        grid-template-columns: 1fr;
+        grid-template-rows: 50px 100px 100px 350px 220px;
+        grid-template-areas:
+        "titulo"
+        "parrafo1"
+        "parrafo2"
+        "mapa"
+        "formulario";
+    }
+    form {
+        width: 400px;
+    }
+}
+
 .contact-title {
     text-align: center;
     grid-area: titulo;
