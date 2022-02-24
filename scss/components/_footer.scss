@@ -1,0 +1,54 @@
+@import '../base/variables';
+@import '../base/lists';
+
+/*inicio estilos del footer*/
+@media screen and (max-width:980px) {
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+    } 
+}
+.footer-container {
+    padding-top: 50px;
+    background-color: #982c3b;
+    color: nth($font-color, 2);
+    border-top: 2px solid #252932 ;
+    padding: 20px 15px; 
+}
+
+/*estilo del footer para mobiles and tablets*/
+@media screen and (max-width:980px) {
+    .footer-container {
+        background-color: #000;
+    }
+
+}
+
+.footer-inline {
+    display: flex;
+    flex-wrap: wrap; 
+    width: 100%; 
+    padding-top: 5px;
+}
+
+.footer-center {
+    width: 25%;
+    padding: 20px 0 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.end {
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Lato', sans-serif;
+    font-size: 10px;
+}
+
+.contact {
+    color: nth($font-color, 2);
+
+}
+/*fin de estilos del footer*/

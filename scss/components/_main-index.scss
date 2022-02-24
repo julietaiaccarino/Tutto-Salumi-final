@@ -1,0 +1,87 @@
+@import '../base/variables';
+@import '../base/lists';
+
+/*inicio de estilo carrousel*/
+.margin-carr {
+  margin-top: 135px;
+}
+/*fin de estilo carrousel*/
+
+/*inicio de estilo seccion productos*/
+.margin-sectmain { margin-top: 50px;
+  div {
+    div {
+      .parrafo-producto{ 
+        display: flex;
+        font-family: 'Poppins', sans-serif;
+        font-style: italic;
+        font-weight: bold;
+        padding: 20px;
+        border: 2px solid rgb(14, 13, 13);
+        width: 90%;
+        justify-content: center;
+      }
+
+    }
+    
+
+    div {
+      .cont { 
+        position: relative;
+        margin: 10px 0 10px 0;
+        &:hover .img {
+          opacity: 0.3;
+        }
+        &:hover .text-pos {
+          opacity: 1;
+        }
+        a {
+          .i-products {
+            opacity: 1;
+            display: block;
+            width: 100%;
+            height: auto;
+            transition: .5s ease;
+            backface-visibility: hidden;
+          }
+        
+          .pro-cir{
+            @media screen and (min-width:981px) {
+              border-radius: 100%;
+            }
+          }
+          .text-pos {
+            transition: .5s ease;
+            opacity: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            text-align: center;
+          
+
+            .pro-titles {
+              font-size: $imagen-description;
+              color: nth($font-color, 1);
+              font-family: 'Bree Serif', serif;
+              font-size: 20px;
+              display: flex;
+              justify-content: center;
+              margin: 5px;
+            }
+            .texts-back {
+              background-color: #982c3b;
+              color: nth($font-color, 2);
+              font-size: 16px;
+              padding: 16px 32px;
+            }
+          }
+        }
+      }
+
+    }
+  }
+}
+
+/*fin de estilo seccion productos*/

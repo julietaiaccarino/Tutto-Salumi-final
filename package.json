@@ -1,0 +1,19 @@
+{
+  "name": "tuttosalumi-iaccarino",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">Hi 👋, I'm Julieta Iaccarino</h1>\r <h3 align=\"center\">Studying web development</h3>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julietaiaccarino/SASS1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/julietaiaccarino/SASS1/issues"
+  },
+  "homepage": "https://github.com/julietaiaccarino/SASS1#readme"
+}

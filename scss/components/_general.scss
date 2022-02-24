@@ -1,0 +1,35 @@
+/*Reseteo de estilos predeterminados*/
+*{
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+/*fin de reseteo de estilos predeterminados*/
+
+:root {
+    --body-background:#f8f5f0;
+    --titles-color: #c5a75e;
+    --imagen-description: 15px;
+    --footer-writing: #fff;
+}
+
+/*Tipografias - importacion Font*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,300&family=Poppins:wght@300;400;500;600&display=swap');
+/* font-family: 'Lato', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+/* font-family: 'Bree Serif', serif; */
+
+
+body {
+    background-color: #f8f5F0;
+    font-family: 'Poppins', sans-serif;
+}
+img {max-width: 100%;}

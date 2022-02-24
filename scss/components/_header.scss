@@ -1,0 +1,17 @@
+@import '../base/variables';
+@import '../base/lists';
+
+/*inicio de estilos del header*/
+header {
+    .nav-bar {
+        .title {
+            font-family: 'Bree Serif', serif;
+            font-weight: 600 lighter;
+            font-size: 20px;
+            display: block;
+            padding: 0.5rem 1rem;
+            color: nth($font-color, 1);
+        }
+    }
+}
+/*fin de estilos del header*/

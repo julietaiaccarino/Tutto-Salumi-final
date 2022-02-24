@@ -1,0 +1,273 @@
+/*inicio de estilos del header*/
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,300&family=Poppins:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+header .nav-bar .title {
+  font-family: "Bree Serif", serif;
+  font-weight: 600 lighter;
+  font-size: 20px;
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #c5a75e;
+}
+
+/*fin de estilos del header*/
+/*inicio estilos del footer*/
+@media screen and (max-width: 980px) {
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.footer-container {
+  padding-top: 50px;
+  background-color: #982c3b;
+  color: #fff;
+  border-top: 2px solid #252932;
+  padding: 20px 15px;
+}
+
+/*estilo del footer para mobiles and tablets*/
+@media screen and (max-width: 980px) {
+  .footer-container {
+    background-color: #000;
+  }
+}
+.footer-inline {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-top: 5px;
+}
+
+.footer-center {
+  width: 25%;
+  padding: 20px 0 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.end {
+  text-align: center;
+  margin-top: 30px;
+  font-family: "Lato", sans-serif;
+  font-size: 10px;
+}
+
+.contact {
+  color: #fff;
+}
+
+/*fin de estilos del footer*/
+/*inicio de estilo carrousel*/
+.margin-carr {
+  margin-top: 135px;
+}
+
+/*fin de estilo carrousel*/
+/*inicio de estilo seccion productos*/
+.margin-sectmain {
+  margin-top: 50px;
+}
+.margin-sectmain div div .parrafo-producto {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  padding: 20px;
+  border: 2px solid #0e0d0d;
+  width: 90%;
+  justify-content: center;
+}
+.margin-sectmain div div .cont {
+  position: relative;
+  margin: 10px 0 10px 0;
+}
+.margin-sectmain div div .cont:hover .img {
+  opacity: 0.3;
+}
+.margin-sectmain div div .cont:hover .text-pos {
+  opacity: 1;
+}
+.margin-sectmain div div .cont a .i-products {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+@media screen and (min-width: 981px) {
+  .margin-sectmain div div .cont a .pro-cir {
+    border-radius: 100%;
+  }
+}
+.margin-sectmain div div .cont a .text-pos {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.margin-sectmain div div .cont a .text-pos .pro-titles {
+  font-size: 15px;
+  color: #c5a75e;
+  font-family: "Bree Serif", serif;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+.margin-sectmain div div .cont a .text-pos .texts-back {
+  background-color: #982c3b;
+  color: #fff;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+/*fin de estilo seccion productos*/
+/*inicio estilos de contacto*/
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contacto {
+  width: 70%;
+  margin: 150px 0;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 12% 30% 16% 30% 12%;
+  grid-template-rows: 50px 100px 350px 220px;
+  grid-template-areas: ". . titulo . ." ". parrafo1 . parrafo2 ." ". mapa mapa mapa ." ". formulario formulario formulario . ";
+  color: black;
+  background-color: #fbedd5;
+}
+
+@media screen and (max-width: 480px) {
+  .contacto {
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 100px 100px 350px 220px;
+    grid-template-areas: "titulo" "parrafo1" "parrafo2" "mapa" "formulario";
+  }
+
+  form {
+    width: 400px;
+  }
+}
+.contact-title {
+  text-align: center;
+  grid-area: titulo;
+}
+
+.adress-container {
+  grid-area: parrafo1;
+  justify-self: end;
+}
+
+.hours-container {
+  grid-area: parrafo2;
+  justify-self: start;
+}
+
+.mapa {
+  grid-area: mapa;
+  justify-self: center;
+}
+
+.formulario {
+  grid-area: formulario;
+}
+
+/*fin de estilos de contacto*/
+/*inicio de estilos del formulario*/
+form {
+  margin: 0 auto;
+  width: 500px;
+  padding: 1em;
+  border: 1px solid #ccc;
+}
+
+form ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form li + li {
+  margin-top: 1em;
+}
+
+label {
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+input, textarea {
+  font: 1em sans-serif;
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+  border-color: #000;
+}
+
+textarea {
+  vertical-align: top;
+  height: 5em;
+}
+
+.button {
+  padding-left: 90px;
+}
+
+button {
+  margin-left: 0.5em;
+}
+
+/*fin de estilos del formulario*/
+/*Reseteo de estilos predeterminados*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*fin de reseteo de estilos predeterminados*/
+:root {
+  --body-background:#f8f5f0;
+  --titles-color: #c5a75e;
+  --imagen-description: 15px;
+  --footer-writing: #fff;
+}
+
+/*Tipografias - importacion Font*/
+/* font-family: 'Lato', sans-serif;
+font-family: 'Poppins', sans-serif; */
+/* font-family: 'Bree Serif', serif; */
+body {
+  background-color: #f8f5F0;
+  font-family: "Poppins", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
