@@ -4,13 +4,22 @@
 /*inicio de estilos del header*/
 header {
     .nav-bar {
-        .title {
-            font-family: 'Bree Serif', serif;
-            font-weight: 600 lighter;
-            font-size: 20px;
-            display: block;
-            padding: 0.5rem 1rem;
-            color: nth($font-color, 1);
+        div {
+            div {
+                ul {
+                    li {
+                        .title {
+                            font-family: 'Bree Serif', serif;
+                            font-weight: 600 lighter;
+                            font-size: 20px;
+                            display: block;
+                            padding: 0.5rem 1rem;
+                            color: nth($font-color, 1);
+                        }
+                    }
+                }
+            }
+            
         }
     }
 }

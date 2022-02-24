@@ -1,7 +1,5 @@
 /*inicio de estilos del header*/
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,300&family=Poppins:wght@300;400;500;600&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
-header .nav-bar .title {
+header .nav-bar div div ul li .title {
   font-family: "Bree Serif", serif;
   font-weight: 600 lighter;
   font-size: 20px;
@@ -70,7 +68,7 @@ header .nav-bar .title {
 .margin-sectmain {
   margin-top: 50px;
 }
-.margin-sectmain div div .parrafo-producto {
+.margin-sectmain div .div .parrafo-producto {
   display: flex;
   font-family: "Poppins", sans-serif;
   font-style: italic;
@@ -80,17 +78,17 @@ header .nav-bar .title {
   width: 90%;
   justify-content: center;
 }
-.margin-sectmain div div .cont {
+.margin-sectmain div .cont {
   position: relative;
   margin: 10px 0 10px 0;
 }
-.margin-sectmain div div .cont:hover .img {
+.margin-sectmain div .cont:hover .img {
   opacity: 0.3;
 }
-.margin-sectmain div div .cont:hover .text-pos {
+.margin-sectmain div .cont:hover .text-pos {
   opacity: 1;
 }
-.margin-sectmain div div .cont a .i-products {
+.margin-sectmain div .cont a .i-products {
   opacity: 1;
   display: block;
   width: 100%;
@@ -99,11 +97,11 @@ header .nav-bar .title {
   backface-visibility: hidden;
 }
 @media screen and (min-width: 981px) {
-  .margin-sectmain div div .cont a .pro-cir {
+  .margin-sectmain div .cont a .pro-cir {
     border-radius: 100%;
   }
 }
-.margin-sectmain div div .cont a .text-pos {
+.margin-sectmain div .cont a .text-pos {
   transition: 0.5s ease;
   opacity: 0;
   position: absolute;
@@ -113,7 +111,7 @@ header .nav-bar .title {
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
-.margin-sectmain div div .cont a .text-pos .pro-titles {
+.margin-sectmain div .cont a .text-pos .pro-titles {
   font-size: 15px;
   color: #c5a75e;
   font-family: "Bree Serif", serif;
@@ -122,7 +120,7 @@ header .nav-bar .title {
   justify-content: center;
   margin: 5px;
 }
-.margin-sectmain div div .cont a .text-pos .texts-back {
+.margin-sectmain div .cont a .text-pos .texts-back {
   background-color: #982c3b;
   color: #fff;
   font-size: 16px;
@@ -250,20 +248,8 @@ a {
 }
 
 /*fin de reseteo de estilos predeterminados*/
-:root {
-  --body-background:#f8f5f0;
-  --titles-color: #c5a75e;
-  --imagen-description: 15px;
-  --footer-writing: #fff;
-}
-
-/*Tipografias - importacion Font*/
-/* font-family: 'Lato', sans-serif;
-font-family: 'Poppins', sans-serif; */
-/* font-family: 'Bree Serif', serif; */
 body {
   background-color: #f8f5F0;
-  font-family: "Poppins", sans-serif;
 }
 
 img {
