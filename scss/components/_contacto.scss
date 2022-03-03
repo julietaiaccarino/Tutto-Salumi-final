@@ -1,14 +1,15 @@
 @import '../base/lists';
+@import '../base/extends';
+
 
 /*inicio estilos de contacto*/
 body {
     .contact-container {
-        display: flex;
-        justify-content: center;
+        @extend %center;
         align-items: center;
     }
-    .table-responsive {
-    }
+    // .table-responsive {
+    // }
     main {
         .contacto {
             width: 70%;
@@ -38,9 +39,9 @@ body {
                 "formulario";
             }
         }
-        .table-responsive {
+        // .table-responsive {
 
-        }
+        // }
         section {
             .contact-title {
                 text-align: center;
@@ -61,8 +62,8 @@ body {
             .formulario {
                 grid-area: formulario;
             }
-            .table-responsive {
-            }
+            // .table-responsive {
+            // }
             /*inicio de estilos del formulario*/
             form {
                 margin: 0 auto;

@@ -9,6 +9,11 @@ header .nav-bar div div ul li .title {
 }
 
 /*fin de estilos del header*/
+body .contact-container, .margin-sectmain div div .parrafo-producto {
+  display: flex;
+  justify-content: center;
+}
+
 /*inicio estilos del footer*/
 @media screen and (max-width: 980px) {
   .footer-container {
@@ -58,6 +63,11 @@ header .nav-bar div div ul li .title {
 }
 
 /*fin de estilos del footer*/
+body .contact-container, .margin-sectmain div div .parrafo-producto {
+  display: flex;
+  justify-content: center;
+}
+
 /*inicio de estilo carrousel*/
 .margin-carr {
   margin-top: 135px;
@@ -69,14 +79,12 @@ header .nav-bar div div ul li .title {
   margin-top: 50px;
 }
 .margin-sectmain div div .parrafo-producto {
-  display: flex;
   font-family: "Poppins", sans-serif;
   font-style: italic;
   font-weight: bold;
   padding: 20px;
   border: 2px solid #0e0d0d;
   width: 90%;
-  justify-content: center;
 }
 .margin-sectmain div .cont {
   position: relative;
@@ -128,10 +136,13 @@ header .nav-bar div div ul li .title {
 }
 
 /*fin de estilo seccion productos*/
-/*inicio estilos de contacto*/
-body .contact-container {
+body .contact-container, .margin-sectmain div div .parrafo-producto {
   display: flex;
   justify-content: center;
+}
+
+/*inicio estilos de contacto*/
+body .contact-container {
   align-items: center;
 }
 body main .contacto {
@@ -252,6 +263,11 @@ body {
 
 img {
   max-width: 100%;
+}
+
+.margin-sectmain div div .parrafo-producto, body .contact-container {
+  display: flex;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=style.css.map */
