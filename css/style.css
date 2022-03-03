@@ -1,3 +1,8 @@
+body .contact-container, .margin-sectmain div div .parrafo-producto {
+  display: flex;
+  justify-content: center;
+}
+
 /*inicio de estilos del header*/
 header .nav-bar div div ul li .title {
   font-family: "Bree Serif", serif;
