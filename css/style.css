@@ -120,18 +120,17 @@ body .contact-container, .margin-sectmain div div .parrafo-producto {
   text-align: center;
 }
 .margin-sectmain div .cont a .text-pos .pro-titles {
-  font-size: 15px;
+  font-size: 20px;
   color: #c5a75e;
   font-family: "Bree Serif", serif;
-  font-size: 20px;
   display: flex;
   justify-content: center;
   margin: 5px;
 }
 .margin-sectmain div .cont a .text-pos .texts-back {
   background-color: #982c3b;
-  color: #fff;
-  font-size: 16px;
+  color: #c5a75e;
+  font-size: 20px;
   padding: 16px 32px;
 }
 
@@ -153,8 +152,8 @@ body main .contacto {
   grid-template-columns: 12% 30% 16% 30% 12%;
   grid-template-rows: 50px 100px 350px 220px;
   grid-template-areas: ". . titulo . ." ". parrafo1 . parrafo2 ." ". mapa mapa mapa ." ". formulario formulario formulario . ";
-  color: black;
   background-color: #fbedd5;
+  color: black;
 }
 @media screen and (max-width: 480px) {
   body main .contacto {

@@ -64,15 +64,14 @@
             font-size: $imagen-description;
             color: nth($font-color, 1);
             font-family: 'Bree Serif', serif;
-            font-size: 20px;
             display: flex;
             justify-content: center;
             margin: 5px;
           }
           .texts-back {
             background-color: #982c3b;
-            color: nth($font-color, 2);
-            font-size: 16px;
+            color: nth($font-color, 1);
+            font-size: $imagen-description;
             padding: 16px 32px;
           }
         }

@@ -1,0 +1,6 @@
+
+@mixin colors($back, $font) {
+    background-color: $back;
+    color: $font;
+}
+    
