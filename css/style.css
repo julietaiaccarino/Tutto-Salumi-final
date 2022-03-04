@@ -20,34 +20,34 @@ body .contact-container, .margin-sectmain div div .parrafo-producto {
 }
 
 /*inicio estilos del footer*/
-@media screen and (max-width: 980px) {
-  .footer-container {
-    display: flex;
-    flex-direction: column;
-  }
-}
 .footer-container {
   padding-top: 50px;
   background-color: #982c3b;
   color: #fff;
   border-top: 2px solid #252932;
   padding: 20px 15px;
+  /*estilo del footer para mobiles and tablets*/
 }
-
-/*estilo del footer para mobiles and tablets*/
 @media screen and (max-width: 980px) {
   .footer-container {
+    display: flex;
+    flex-direction: column;
     background-color: #000;
   }
 }
-.footer-inline {
+.footer-container .footer-inline {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
   padding-top: 5px;
 }
-
-.footer-center {
+@media screen and (max-width: 980px) {
+  .footer-container .footer-inline {
+    display: flex;
+    justify-content: center;
+  }
+}
+.footer-container .footer-inline .footer-center {
   width: 25%;
   padding: 20px 0 20px 0;
   display: flex;
@@ -55,16 +55,24 @@ body .contact-container, .margin-sectmain div div .parrafo-producto {
   align-items: flex-start;
   flex-wrap: wrap;
 }
-
-.end {
+@media screen and (max-width: 980px) {
+  .footer-container .footer-inline .footer-center {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+}
+.footer-container .footer-inline .footer-center p {
+  margin-bottom: 0;
+}
+.footer-container .footer-inline .footer-center .contact {
+  color: #fff;
+}
+.footer-container div .end {
   text-align: center;
   margin-top: 30px;
   font-family: "Lato", sans-serif;
   font-size: 10px;
-}
-
-.contact {
-  color: #fff;
 }
 
 /*fin de estilos del footer*/

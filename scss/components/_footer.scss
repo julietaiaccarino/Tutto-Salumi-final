@@ -4,53 +4,114 @@
 @import '../base/maps';
 
 /*inicio estilos del footer*/
-@media screen and (max-width:980px) {
-    .footer-container {
-        display: flex;
-        flex-direction: column;
-    } 
-}
 .footer-container {
     padding-top: 50px;
     background-color: map-get($footer, bg-footer);
     color: map-get($footer, font-color);
-    border-top: map-get($footer, border-header)  ;
-    padding: 20px 15px; 
-}
+    border-top: map-get($footer, border-header);
+    padding: 20px 15px;
 
-/*estilo del footer para mobiles and tablets*/
-@media screen and (max-width:980px) {
-    .footer-container {
+    /*estilo del footer para mobiles and tablets*/
+    @media screen and (max-width:980px) {
+        display: flex;
+        flex-direction: column;
         background-color: #000;
+        
     }
+    
+    .footer-inline {
+        display: flex;
+        flex-wrap: wrap; 
+        width: 100%; 
+        padding-top: 5px;
 
-}
+        @media screen and (max-width:980px) {
+            display: flex;
+            justify-content: center;
+        }
 
-.footer-inline {
-    display: flex;
-    flex-wrap: wrap; 
-    width: 100%; 
-    padding-top: 5px;
-}
+        .footer-center {
+            width: 25%;
+            padding: 20px 0 20px 0;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            flex-wrap: wrap;
 
-.footer-center {
-    width: 25%;
-    padding: 20px 0 20px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    flex-wrap: wrap;
-}
+            @media screen and (max-width:980px) {
+                width: 100%;
+                display: flex;
+                align-items: center;
 
-.end {
-    text-align: center;
-    margin-top: 30px;
-    font-family: 'Lato', sans-serif;
-    font-size: 10px;
-}
-
-.contact {
-    color: nth($font-color, 2);
-
+            }
+            p {
+                margin-bottom: 0;
+            }
+        }
+        .footer-center {
+            .contact {
+                color: nth($font-color, 2);
+            }
+        }
+    }
+    div {
+        .end {
+            text-align: center;
+            margin-top: 30px;
+            font-family: 'Lato', sans-serif;
+            font-size: 10px;
+        }
+    }
 }
 /*fin de estilos del footer*/
+
+// @media screen and (max-width:980px) {
+//     .footer-container {
+//         display: flex;
+//         flex-direction: column;
+//     } 
+// }
+// .footer-container {
+//     padding-top: 50px;
+//     background-color: map-get($footer, bg-footer);
+//     color: map-get($footer, font-color);
+//     border-top: map-get($footer, border-header)  ;
+//     padding: 20px 15px; 
+// }
+
+
+// @media screen and (max-width:980px) {
+//     .footer-container {
+//         background-color: #000;
+//     }
+
+// }
+
+// .footer-inline {
+//     display: flex;
+//     flex-wrap: wrap; 
+//     width: 100%; 
+//     padding-top: 5px;
+// }
+
+// .footer-center {
+//     // width: 25%;
+//     // padding: 20px 0 20px 0;
+//     // display: flex;
+//     // flex-direction: column;
+//     // align-items: flex-start;
+//     // flex-wrap: wrap;
+// }
+
+// .end {
+//     text-align: center;
+//     margin-top: 30px;
+//     font-family: 'Lato', sans-serif;
+//     font-size: 10px;
+// }
+
+// .contact {
+//     color: nth($font-color, 2);
+
+// }
+
