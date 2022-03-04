@@ -12,7 +12,7 @@
 - ⚡ Fun fact **Done its better that perfect**
 
 <p align="left">
-  En este repositorio estoy trabajando en la entrega aplicando SASS 1
+  En este repositorio estoy trabajando en la entrega SASS 2 y aplicando SEO
 </p>
 
 <h3 align="left">Connect with me:</h3>
