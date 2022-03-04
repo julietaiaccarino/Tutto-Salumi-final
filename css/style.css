@@ -1,4 +1,4 @@
-body .contact-container, .margin-sectmain div div .parrafo-producto {
+.contact-container, .margin-sectmain div div .parrafo-producto {
   display: flex;
   justify-content: center;
 }
@@ -14,7 +14,7 @@ header .nav-bar div div ul li .title {
 }
 
 /*fin de estilos del header*/
-body .contact-container, .margin-sectmain div div .parrafo-producto {
+.contact-container, .margin-sectmain div div .parrafo-producto {
   display: flex;
   justify-content: center;
 }
@@ -76,7 +76,7 @@ body .contact-container, .margin-sectmain div div .parrafo-producto {
 }
 
 /*fin de estilos del footer*/
-body .contact-container, .margin-sectmain div div .parrafo-producto {
+.contact-container, .margin-sectmain div div .parrafo-producto {
   display: flex;
   justify-content: center;
 }
@@ -162,16 +162,17 @@ body .contact-container, .margin-sectmain div div .parrafo-producto {
 }
 
 /*fin de estilo seccion productos*/
-body .contact-container, .margin-sectmain div div .parrafo-producto {
+.contact-container, .margin-sectmain div div .parrafo-producto {
   display: flex;
   justify-content: center;
 }
 
 /*inicio estilos de contacto*/
-body .contact-container {
+.contact-container {
   align-items: center;
 }
-body main .contacto {
+
+.contacto {
   width: 70%;
   margin: 150px 0;
   padding: 20px;
@@ -183,91 +184,91 @@ body main .contacto {
   color: black;
 }
 @media screen and (max-width: 480px) {
-  body main .contacto {
+  .contacto {
     width: 100%;
     grid-template-columns: 1fr;
     grid-template-rows: 50px 100px 100px 350px 220px;
     grid-template-areas: "titulo" "parrafo1" "parrafo2" "mapa" "formulario";
   }
 }
-body main section {
-  /*inicio de estilos del formulario*/
-  /*fin de estilos del formulario*/
-}
-body main section .contact-title {
+
+.contact-title {
   text-align: center;
   grid-area: titulo;
 }
-body main section .adress-container {
+
+.adress-container {
   grid-area: parrafo1;
   justify-self: end;
 }
-body main section .hours-container {
+
+.hours-container {
   grid-area: parrafo2;
   justify-self: start;
 }
-body main section .mapa {
+
+.mapa {
   grid-area: mapa;
   justify-self: center;
 }
-body main section .formulario {
+
+.formulario {
   grid-area: formulario;
 }
-body main section form {
+
+/*inicio de estilos del formulario*/
+form {
   margin: 0 auto;
   width: 500px;
   padding: 1em;
   border: 1px solid #ccc;
 }
 @media screen and (max-width: 480px) {
-  body main section form {
+  form {
     width: 400px;
   }
 }
-body main section form ul {
+form ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-body main section form ul li {
+form ul li {
   margin-top: 1em;
 }
 @media screen and (max-width: 480px) {
-  body main section form ul li {
+  form ul li {
     display: flex;
     flex-direction: column;
   }
 }
-body main section form ul li label {
+form ul li label {
   display: inline-block;
   width: 90px;
   text-align: right;
 }
-body main section form ul li input, body main section form ul li textarea {
+form ul li input, form ul li textarea {
   font: 1em sans-serif;
   width: 300px;
   box-sizing: border-box;
   border: 1px solid #999;
 }
-body main section form ul li input:focus, body main section form ul li textarea:focus {
+form ul li input:focus, form ul li textarea:focus {
   border-color: #000;
 }
-body main section form ul li textarea {
+form ul li textarea {
   vertical-align: top;
   height: 5em;
 }
-body main section form ul li button {
+form ul li button {
   margin-left: 0.5em;
 }
-body main section form ul .button {
+form ul .button {
   padding-left: 90px;
 }
 
-/*fin de estilos de contacto*/
-/*inicio estilos de contacto*/
-/*fin de estilos de contacto*/
-/*inicio de estilos del formulario*/
 /*fin de estilos del formulario*/
+/*fin de estilos de contacto*/
 /*Reseteo de estilos predeterminados*/
 * {
   margin: 0;
@@ -291,7 +292,7 @@ img {
   max-width: 100%;
 }
 
-.margin-sectmain div div .parrafo-producto, body .contact-container {
+.margin-sectmain div div .parrafo-producto, .contact-container {
   display: flex;
   justify-content: center;
 }
