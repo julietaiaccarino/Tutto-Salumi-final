@@ -99,17 +99,24 @@ body .contact-container, .margin-sectmain div div .parrafo-producto {
   border: 2px solid #0e0d0d;
   width: 90%;
 }
-.margin-sectmain div .cont {
+@media screen and (max-width: 480px) {
+  .margin-sectmain .prod-col {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
+.margin-sectmain .prod-col .cont {
   position: relative;
   margin: 10px 0 10px 0;
 }
-.margin-sectmain div .cont:hover .img {
+.margin-sectmain .prod-col .cont:hover .img {
   opacity: 0.3;
 }
-.margin-sectmain div .cont:hover .text-pos {
+.margin-sectmain .prod-col .cont:hover .text-pos {
   opacity: 1;
 }
-.margin-sectmain div .cont a .i-products {
+.margin-sectmain .prod-col .cont a .i-products {
   opacity: 1;
   display: block;
   width: 100%;
@@ -118,11 +125,11 @@ body .contact-container, .margin-sectmain div div .parrafo-producto {
   backface-visibility: hidden;
 }
 @media screen and (min-width: 981px) {
-  .margin-sectmain div .cont a .pro-cir {
+  .margin-sectmain .prod-col .cont a .pro-cir {
     border-radius: 100%;
   }
 }
-.margin-sectmain div .cont a .text-pos {
+.margin-sectmain .prod-col .cont a .text-pos {
   transition: 0.5s ease;
   opacity: 0;
   position: absolute;
@@ -132,7 +139,7 @@ body .contact-container, .margin-sectmain div div .parrafo-producto {
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
-.margin-sectmain div .cont a .text-pos .pro-titles {
+.margin-sectmain .prod-col .cont a .text-pos .pro-titles {
   font-size: 20px;
   color: #c5a75e;
   font-family: "Bree Serif", serif;
@@ -140,11 +147,18 @@ body .contact-container, .margin-sectmain div div .parrafo-producto {
   justify-content: center;
   margin: 5px;
 }
-.margin-sectmain div .cont a .text-pos .texts-back {
+.margin-sectmain .prod-col .cont a .text-pos .texts-back {
   background-color: #982c3b;
   color: #c5a75e;
   font-size: 20px;
   padding: 16px 32px;
+}
+@media screen and (max-width: 480px) {
+  .margin-sectmain .prod-col .cont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
 }
 
 /*fin de estilo seccion productos*/
