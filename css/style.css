@@ -292,6 +292,10 @@ img {
   max-width: 100%;
 }
 
+.disclaimer {
+  display: none;
+}
+
 .margin-sectmain div div .parrafo-producto, .contact-container {
   display: flex;
   justify-content: center;
