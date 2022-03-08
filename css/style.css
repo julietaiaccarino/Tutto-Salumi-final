@@ -1,6 +1,11 @@
-.contact-container, .margin-sectmain div div .parrafo-producto {
+.margin-titles-pg, .contact-container, .margin-sectmain div div .parrafo-producto {
   display: flex;
   justify-content: center;
+}
+
+.margin-titles-pg {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /*inicio de estilos del header*/
@@ -14,9 +19,14 @@ header .nav-bar div div ul li .title {
 }
 
 /*fin de estilos del header*/
-.contact-container, .margin-sectmain div div .parrafo-producto {
+.margin-titles-pg, .contact-container, .margin-sectmain div div .parrafo-producto {
   display: flex;
   justify-content: center;
+}
+
+.margin-titles-pg {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /*inicio estilos del footer*/
@@ -76,9 +86,14 @@ header .nav-bar div div ul li .title {
 }
 
 /*fin de estilos del footer*/
-.contact-container, .margin-sectmain div div .parrafo-producto {
+.margin-titles-pg, .contact-container, .margin-sectmain div div .parrafo-producto {
   display: flex;
   justify-content: center;
+}
+
+.margin-titles-pg {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /*inicio de estilo carrousel*/
@@ -162,9 +177,14 @@ header .nav-bar div div ul li .title {
 }
 
 /*fin de estilo seccion productos*/
-.contact-container, .margin-sectmain div div .parrafo-producto {
+.margin-titles-pg, .contact-container, .margin-sectmain div div .parrafo-producto {
   display: flex;
   justify-content: center;
+}
+
+.margin-titles-pg {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /*inicio estilos de contacto*/
@@ -296,9 +316,34 @@ img {
   display: none;
 }
 
-.margin-sectmain div div .parrafo-producto, .contact-container {
+.margin-titles-pg, .margin-sectmain div div .parrafo-producto, .contact-container {
   display: flex;
   justify-content: center;
+}
+
+.margin-titles-pg {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.margin-titles-pg, .margin-sectmain div div .parrafo-producto, .contact-container {
+  display: flex;
+  justify-content: center;
+}
+
+.margin-titles-pg {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*inicio de estilo para las pages*/
+.margin-titles-pg {
+  margin-top: 180px;
+  color: #982c3b;
+  font-weight: 600 lighter;
+  font-size: 20px;
+  padding: 0.5rem 1rem;
+  font-family: "Lato", sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */

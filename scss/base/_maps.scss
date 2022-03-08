@@ -4,3 +4,11 @@ $footer: (
     font-color: nth($font-color, 2),
     border-header: 2px solid #252932,
 );
+
+$h1: (
+    font-color: nth($font-color, 4),
+    // font-family: 'Lato', sans-serif,
+    font-weight: 600 lighter,
+    font-size: 20px,
+    padding: 0.5rem 1rem,
+);

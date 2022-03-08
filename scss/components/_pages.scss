@@ -1,0 +1,16 @@
+@import '../base/lists';
+@import '../base/extends';
+@import '../base/maps';
+
+/*inicio de estilo para las pages*/
+
+.margin-titles-pg {
+    margin-top: nth($margin-top, 3);
+    @extend %center;
+    @extend %responsive;
+    color: map-get($h1, font-color );
+    font-weight: map-get($h1, font-weight );
+    font-size: map-get($h1, font-size );
+    padding: map-get($h1, padding );
+    font-family: 'Lato', sans-serif,
+}
