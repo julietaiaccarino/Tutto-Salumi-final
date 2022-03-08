@@ -3,7 +3,7 @@
   justify-content: center;
 }
 
-.margin-titles-pg {
+.margin-titles-pg, .footer-container .footer-inline .footer-center, .footer-container .footer-inline {
   display: flex;
   flex-wrap: wrap;
 }
@@ -24,7 +24,7 @@ header .nav-bar div div ul li .title {
   justify-content: center;
 }
 
-.margin-titles-pg {
+.margin-titles-pg, .footer-container .footer-inline .footer-center, .footer-container .footer-inline {
   display: flex;
   flex-wrap: wrap;
 }
@@ -46,8 +46,6 @@ header .nav-bar div div ul li .title {
   }
 }
 .footer-container .footer-inline {
-  display: flex;
-  flex-wrap: wrap;
   width: 100%;
   padding-top: 5px;
 }
@@ -63,7 +61,6 @@ header .nav-bar div div ul li .title {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  flex-wrap: wrap;
 }
 @media screen and (max-width: 980px) {
   .footer-container .footer-inline .footer-center {
@@ -91,7 +88,7 @@ header .nav-bar div div ul li .title {
   justify-content: center;
 }
 
-.margin-titles-pg {
+.margin-titles-pg, .footer-container .footer-inline, .footer-container .footer-inline .footer-center {
   display: flex;
   flex-wrap: wrap;
 }
@@ -182,7 +179,7 @@ header .nav-bar div div ul li .title {
   justify-content: center;
 }
 
-.margin-titles-pg {
+.margin-titles-pg, .footer-container .footer-inline, .footer-container .footer-inline .footer-center {
   display: flex;
   flex-wrap: wrap;
 }
@@ -321,7 +318,7 @@ img {
   justify-content: center;
 }
 
-.margin-titles-pg {
+.margin-titles-pg, .footer-container .footer-inline, .footer-container .footer-inline .footer-center {
   display: flex;
   flex-wrap: wrap;
 }
@@ -331,7 +328,7 @@ img {
   justify-content: center;
 }
 
-.margin-titles-pg {
+.margin-titles-pg, .footer-container .footer-inline, .footer-container .footer-inline .footer-center {
   display: flex;
   flex-wrap: wrap;
 }
