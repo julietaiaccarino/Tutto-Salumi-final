@@ -14,3 +14,7 @@
     padding: map-get($h1, padding );
     font-family: 'Lato', sans-serif,
 }
+
+.sect-margin  {
+    margin-top: nth($margin-top, 1);
+}

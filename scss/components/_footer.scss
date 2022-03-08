@@ -10,6 +10,7 @@
     color: map-get($footer, font-color);
     border-top: map-get($footer, border-header);
     padding: 20px 15px;
+    margin-top: nth($margin-top, 1);
 
     /*estilo del footer para mobiles and tablets*/
     @media screen and (max-width:980px) {

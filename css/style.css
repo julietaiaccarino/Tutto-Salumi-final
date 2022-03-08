@@ -36,6 +36,7 @@ header .nav-bar div div ul li .title {
   color: #fff;
   border-top: 2px solid #252932;
   padding: 20px 15px;
+  margin-top: 50px;
   /*estilo del footer para mobiles and tablets*/
 }
 @media screen and (max-width: 980px) {
@@ -341,6 +342,10 @@ img {
   font-size: 20px;
   padding: 0.5rem 1rem;
   font-family: "Lato", sans-serif;
+}
+
+.sect-margin {
+  margin-top: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */
