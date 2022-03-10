@@ -9,7 +9,7 @@
 
 - ⚡ Fun fact **Done its better that perfect**
 
-<p align="left"> En este repositorio estoy trabajando en la ultila pre entrega del proyecto Tutto Salumi.
+<p align="left"> En este repositorio estoy trabajando en la ultima pre entrega del proyecto Tutto Salumi.
 </p>
 
 <h3 align="left">Connect with me:</h3>
