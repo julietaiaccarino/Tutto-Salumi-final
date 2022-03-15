@@ -1,15 +1,16 @@
-@import '../base/variables';
-@import '../base/lists';
-@import '../base/extends';
-
+@import '../base/_variables.scss';
+@import '../base/_lists.scss';
+@import '../base/_extends.scss';
+@import '_general';
+@import '../base/_maps.scss';
 
 /*inicio de estilos del header*/
-header {
-    .nav-bar {
+header { 
+    .nav-bar { background-color: #181617;
         div {
             div {
                 ul {
-                    li {
+                    li { 
                         .title {
                             font-family: 'Bree Serif', serif;
                             font-weight: 600 lighter;
@@ -23,6 +24,17 @@ header {
             }
             
         }
-    }
+    } 
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: nth($font-color, 5);
+ }
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: nth($font-color, 1);
+ }
+
+.navbar-dark .navbar-nav .nav-link.active {
+    color: nth($font-color, 1);
 }
 /*fin de estilos del header*/
